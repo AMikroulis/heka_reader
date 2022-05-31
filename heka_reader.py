@@ -347,9 +347,10 @@ class TraceRecord(TreeNode):
         ('CRC', 'i'),
         ('GS', 'd'),
         ('SelfChannel', 'i'),
-        ('Filler2', 'i', None),
+        ('InterleaveSize', 'i'),
+        ('InterleaveSkip', 'i'),
     ]
-    size_check = 296
+    size_check = 300
 
 
 class SweepRecord(TreeNode):

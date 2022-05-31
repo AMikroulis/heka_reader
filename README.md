@@ -27,3 +27,7 @@ Instructions
 This module has no installation scripts; simply copy `heka_reader.py` into your
 project. See the included `browser.py` for an example of how to load files and 
 read data / metadata.
+
+## Edits
+1. removed browser.py
+2. heka_reader.py TraceRecord size increased to 300 from 296, Filler2 changed to InterleaveSize, added a 4-byte integer InterleaveSkip at the end.
